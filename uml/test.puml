@@ -1,0 +1,16 @@
+@startuml
+
+class Student{
+    String name
+    int age
+    Gender Gender
+}  
+
+enum Gender{
+    1
+    2
+}
+
+Gender -> Student
+
+@enduml
